@@ -6,3 +6,7 @@ while True:
     led.toggle()
     print('on')
     utime.sleep_ms(1000)
+    
+    led.toggle()
+    print('off')
+    utime.sleep_ms(1000)
